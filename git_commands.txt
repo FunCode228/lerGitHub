@@ -16,7 +16,7 @@ git commit -a -m "ваш коментарий" - сохраняем измене
 Вообще все нужно делать последовательно:
 1. git add
 2. git commit
-3. git push
+3. git push - сохраняем изменения глобально тоесть сохраняем их на github
 
 Эти комманды нужны чтобы добавить репозиторий на github
 git remote add origin https://github.com/FunCode228/lerGitHub.git - origin это
@@ -24,3 +24,5 @@ git remote add origin https://github.com/FunCode228/lerGitHub.git - origin эт�
 
 git branch -M main
 git push -u origin main
+
+git clone ссылка на репозиторий - кланируем себе на пк репозиторий с github
